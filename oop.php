@@ -4,7 +4,7 @@ class Mobil
 {
 	private $roda = "Memiliki  4  ban";
     public $mesin = "Memiliki 2 mesin";
-    public function jalan($arah = 'KE DEBLAKANG')
+    public function jalan($arah = 'KE BELAKANG')
     {
     echo "mobil bergerak . $arah <br>";
     }
