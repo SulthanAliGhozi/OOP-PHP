@@ -30,11 +30,11 @@ class Singa
 }
 
 $Singa = new Singa();
-echo $Singa->KAKI1(); 
+echo $Singa->KAKI1() . "<br>"; 
 echo PHP_EOL;
-echo $Singa->KAKI2(); 
+echo $Singa->KAKI2() . "<br>"; 
 echo PHP_EOL;
-echo $Singa->KAKI3(); 
+echo $Singa->KAKI3() . "<br>"; 
 echo PHP_EOL;
-echo Singa::lari(); 
+echo Singa::lari() . "<br>"; 
 echo PHP_EOL;
