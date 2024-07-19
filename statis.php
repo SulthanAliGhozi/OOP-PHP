@@ -9,27 +9,32 @@ class Singa
 		echo 'Singa berlari';
 	}
 
-    public static function kaki1()
+    public static function KAKI1()
     {
         //contoh menggunakan class
-        echo Singa::$kaki1;
+        echo Singa::$KAKI;
     }
 
-    public static function kaki2()
+    public static function KAKI2()
     {
         //contoh menggunakan self
-        echo self::$kaki2;
+        echo self::$KAKI;
     }
 
-    public static function kaki3()
+    public static function KAKI3()
     {
         //contoh menggunakan static
-        echo static::$kaki3;
+        echo static::$KAKI;
     }
 
 }
 
-echo Singa::$KAKI; 
+$Singa = new Singa();
+echo $Singa->KAKI1(); 
+echo PHP_EOL;
+echo $Singa->KAKI2(); 
+echo PHP_EOL;
+echo $Singa->KAKI3(); 
 echo PHP_EOL;
 echo Singa::lari(); 
 echo PHP_EOL;
