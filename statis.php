@@ -8,6 +8,25 @@ class Singa
 	{
 		echo 'Singa berlari';
 	}
+
+    public static function kaki1()
+    {
+        //contoh menggunakan class
+        echo Singa::$kaki1;
+    }
+
+    public static function kaki2()
+    {
+        //contoh menggunakan self
+        echo self::$kaki2;
+    }
+
+    public static function kaki3()
+    {
+        //contoh menggunakan static
+        echo static::$kaki3;
+    }
+
 }
 
 echo Singa::$KAKI; 
